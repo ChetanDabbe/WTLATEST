@@ -1,0 +1,42 @@
+ #logo1{
+    width:10vw;
+    height:10vh;
+}
+
+#login_btn{
+    color:black;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+    text-decoration: none;
+}
+#heading1{
+    color:blue;
+}
+
+.frame2{
+    width:100%;
+    /* max-height:40vh; */
+}
+#common{
+    width: 100%;
+    max-height: 10vh;
+    /* height: 5vh; */
+    /* object-fit:cover; */
+}
+
+.carousel-caption {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: translateY(-100%);
+}
+
+.carousel-item.active .carousel-caption {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+
